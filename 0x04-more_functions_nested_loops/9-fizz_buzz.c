@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print 1 - 100
+ * main - print 1 to 100 and fizzbuzz
  * Return: 0
  */
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-		printf("%d ", 1);
+		printf("%d ", i);
 		}
 	}
 	printf("Buzz");
