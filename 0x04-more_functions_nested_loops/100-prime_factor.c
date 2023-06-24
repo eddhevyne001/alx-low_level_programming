@@ -8,18 +8,18 @@
 int main(void)
 {
 	unsigned long int num = 612852475143;
-	unsigned long int prim;
+	unsigned long int prime;
 
-	prim = 3;
-	while (prim < num / 2)
+	prime = 3;
+	while (prime < num / 2)
 	{
-		if ((num % prim) == 0)
+		if ((num % prime) == 0)
 		{
-			if((prim % 3) == 2)
-				printf(",%lu ", prim);
+			if ((prime % 3) == 2)
+				printf(",%lu ", prime);
 		}
 
-		prim+=2;
+		prime += 2;
 	}
 
 	putchar('\n');
