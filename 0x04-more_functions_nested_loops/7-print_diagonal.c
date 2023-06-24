@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_diagonal - print diagonal lines
  * @n: number of input
@@ -10,12 +11,14 @@ void print_diagonal(int n)
 	for (i = 0; i < n; i++)
 	{
 		if (n > 1)
+		{
 			for (j = 0; j < i; j++)
 			{
-				_putchar(' ');
+				_putchar('	');
 			}
+		}
 		_putchar('\\');
-		_putcahr('\n');
+		_putchar('\n');
 	}
 
 	if (n <= 0)
