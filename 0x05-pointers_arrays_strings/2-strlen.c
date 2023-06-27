@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * _strlen - the length of the function.
  * @str: the string
