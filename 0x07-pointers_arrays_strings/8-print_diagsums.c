@@ -1,12 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * print_diagsums - Prints the sum of the two diagonals of a square matrix.
- * @mx: First value
- * @size: The size of the  (number of rows or columns).
- * Description: This function calculates and prints the sum of the main diagonal
- * and the secondary diagonal of a square.
+ * print_diagsums - function that prints the sum of the two diagonals
+ *@mx: first value -char
+ *@size: second value -int
  */
 void print_diagsums(int *mx, int size)
 {
