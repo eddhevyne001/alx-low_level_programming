@@ -6,7 +6,8 @@
  * str_concat - Entry point
  *@s1: string 1
  *@s2: string 2
- *Return: Pointer to the concatenated string, or NULL if memory allocation fails.
+ *Return: Pointer to the concatenated string
+ *or NULL if memory allocation fails.
  */
 char *str_concat(char *s1, char *s2)
 {
